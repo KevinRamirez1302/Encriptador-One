@@ -460,10 +460,9 @@ body {
         align-items: center;
     }
     .resultado textarea {
-        width: 50vw;
+        width: 52vw;
         height: 30vh;
-        background: white;
-       
+        background: none;
         outline: none;
         resize: none;
         position: absolute;
@@ -606,6 +605,20 @@ body {
         align-items: center;
     }
 
+    .resultado textarea {
+        width: 70vw;
+        height: 25vh;
+        background: none;
+        border: none;
+        outline: none;
+        resize: none;
+        position: absolute;
+        top: 30px;
+        left: 36px;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Montserrat', sans-serif;
+       }
     #botonCopy {
         position: absolute;
         align-self: center;
